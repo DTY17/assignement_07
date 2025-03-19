@@ -1,0 +1,54 @@
+body {
+  margin: 0px;
+  padding: 2vh 2vw;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+div {
+  border-radius: 10px;
+}
+
+body > div {
+  padding: 2vh 2vw;
+  height: 10vh;
+  width: 92vw;
+}
+
+.div1 {
+  height: 10vh;
+  width: 12vw;
+  background-color: red;
+}
+
+.div2 {
+  height: 10vh;
+  width: 12vw;
+  background-color: green;
+}
+.div3 {
+  height: 10vh;
+  width: 12vw;
+  background-color: blue;
+}
+.div4 {
+  height: 10vh;
+  width: 12vw;
+  background-color: yellow;
+}
+.div5 {
+  height: 10vh;
+  width: 12vw;
+  background-color: pink;
+}
+.div6 {
+  height: 10vh;
+  width: 12vw;
+  background-color: rgb(253, 60, 92);
+}
+
+.line {
+  border: 1px solid white;
+  width: 100%;
+}

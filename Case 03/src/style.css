@@ -1,0 +1,57 @@
+body {
+  width: 98vw;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.topic {
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.Main_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Container {
+  width: 50vw;
+  height: 6vh;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+hr {
+  border: 1px solid white;
+  width: 100%;
+}
+
+div > div > div {
+  height: 6vh;
+  width: 20vw;
+  background-color: aliceblue;
+  border-radius: 3px;
+}
+
+.redDiv {
+  background-color: red;
+}
+.redDiv_1 {
+  background-color: rgba(255, 0, 0, 0.7);
+}
+.redDiv_2 {
+  background-color: rgba(255, 0, 0, 0.4);
+}
+.redDiv_3 {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+hr {
+  width: 51vw;
+}
